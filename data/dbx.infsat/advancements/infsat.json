@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Infinite Saturation Toggle",
+        "description": ["",{"text":"Infinite Saturation can be toggled with ","color":"green"},{"text":"/trigger dbx.saturation","color":"gold"},{"text":"\n"},{"text":"\n"},{"text":"The datapack can be configured with ","color":"green"},{"text":"/function dbx.infsat:config","color":"gold"}],
+        "icon": {
+            "item": "honey_bottle"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:dbtderpbox",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
